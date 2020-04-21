@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+    --primary-1: #F28A2E;
+    --primary-2: rgba(242, 138, 46, 0.1);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto 0 auto;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-grid;
+    grid-template-columns: 25% 75%;
+}
+
+.head {
+    margin-top: 30px;
+    display: inline-grid;
+    grid-template-columns: auto max-content;
+    width: 100%;
+}
+
+.title {
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: max-content;
+}
+
+.logged {
+    float: right;
+    max-width: max-content;
+    height: auto;
+    padding: 9px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    align-self: end;
+}
+
+main {
+    grid-column: 2 / span 4;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    padding: 1em;
+    grid-column: 1;
+}
+
+header img {
+    width: 125px;
+    margin: 30px auto;
+    display: block;
+}
+
+header h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+li a {
+    border-radius: 4px;
+    display: block;
+    color: #333;
+    position: relative;
+    padding: 10px 15px;
+}
+
+li a:hover {
+    background-color: var(--primary-2);
+    color: #111111;
+}
+
+.selected {
+    background-color: var(--primary-1);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.selected > a {
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: var(--primary-1);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+hr {
+    border-top: #eeeeee;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 8pt;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+    line-height: 1.1;
+    color: #333;
+}
+
+h2 {
+    margin-top: 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+h5 {
+    margin-bottom: 8px;
+    margin-top: 10px;
+    padding-left: 15px;
+    font-size: 12px;
+}

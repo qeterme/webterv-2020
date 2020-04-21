@@ -5,13 +5,13 @@ require __ROOT__ . "/eosge3/common/dashboard/head.php"; ?>
 <body>
 <div class="container">
     <?php
-    $active = "orders";
+    $active = "edit-site";
     require __ROOT__ . "/eosge3/common/dashboard/menu.php"; ?>
     <main>
         <div class="head">
             <div class="title">
                 <h4>DASHBOARD</h4>
-                <h2>Rendelések</h2>
+                <h2>Oldal szerkesztése</h2>
             </div>
             <div class="logged">
                 <p>Bejelentkezve, mint <b><?php echo $_SESSION["username"];?></b></p>

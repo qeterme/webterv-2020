@@ -1,17 +1,17 @@
 <?php
-define('__ROOT__', dirname(dirname(dirname(dirname(__FILE__)))));
-require __ROOT__ . "/eosge3/common/dashboard/head.php"; ?>
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);
+require "$root/eosge3/common/dashboard/head.php"; ?>
 
 <body>
 <div class="container">
     <?php
-    $active = "orders";
-    require __ROOT__ . "/eosge3/common/dashboard/menu.php"; ?>
+    $active = "home";
+    require "$root/eosge3/common/dashboard/menu.php"; ?>
     <main>
         <div class="head">
             <div class="title">
                 <h4>DASHBOARD</h4>
-                <h2>Rendelések</h2>
+                <h2>Otthon</h2>
             </div>
             <div class="logged">
                 <p>Bejelentkezve, mint <b><?php echo $_SESSION["username"];?></b></p>

@@ -4,7 +4,7 @@ require __ROOT__ . "/eosge3/common/auth/base.php";
 
 $root = realpath($_SERVER["SERVER_NAME"]);?>
 
-<h2>Bejelentkezés</h2>
+<h2></h2>
 <form action="#" method="post">
     <fieldset>
         <h3>Email cím:</h3>

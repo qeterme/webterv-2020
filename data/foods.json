@@ -1,0 +1,420 @@
+{
+  "foodTypes": [
+    "pizza",
+    "roasts"
+  ],
+  "foodSizes": {
+    "pizza": {
+      "1": {
+        "price": 800,
+        "name": "28 cm"
+      },
+      "2": {
+        "price": 1300,
+        "name": "30 cm"
+      },
+      "3": {
+        "price": 1800,
+        "name": "36 cm"
+      },
+      "4": {
+        "price": 2500,
+        "name": "48 cm"
+      }
+    },
+    "roasts": {
+      "1": {
+        "price": 450,
+        "name": "4 darabos"
+      },
+      "2": {
+        "price": 650,
+        "name": "6 darabos"
+      },
+      "3": {
+        "price": 1250,
+        "name": "12 darabos"
+      },
+      "4": {
+        "price": 4850,
+        "name": "48 darabos"
+      },
+      "5": {
+        "price": 4500000,
+        "name": "4 darabos"
+      },
+      "6": {
+        "price": 6500000,
+        "name": "6 darabos"
+      },
+      "7": {
+        "price": 12500000,
+        "name": "12 darabos"
+      },
+      "8": {
+        "price": 48500000,
+        "name": "48 darabos"
+      },
+      "9": {
+        "price": 1100,
+        "name": "egy személyre"
+      },
+      "10": {
+        "price": 2000,
+        "name": "két személyre"
+      },
+      "11": {
+        "price": 1300,
+        "name": "egy személyre"
+      },
+      "12": {
+        "price": 2400,
+        "name": "két személyre"
+      },
+      "13": {
+        "price": 1500,
+        "name": "egy személyre"
+      },
+      "14": {
+        "price": 2800,
+        "name": "két személyre"
+      }
+    }
+  },
+  "foods": {
+    "pizza": {
+      "1": {
+        "name": "Son-Go-Ku",
+        "description": "paradicsomszósz, sajt, sonka, gomba, kukorica",
+        "image": "songoku.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "2": {
+        "name": "Milano",
+        "description": "paradicsomszósz, sajt, sonka, csirkemell, tv paprika, hagyma",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "3": {
+        "name": "Campella",
+        "description": "paradicsomszósz, sajt csirkemell, kukorica, camembert",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "4": {
+        "name": "Húsos négy évszak",
+        "description": "paradicsomszósz, sajt, sonka, szalámi, bacon, főtt füstölt csülök",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "5": {
+        "name": "Qatro formaggi",
+        "description": "paradicsomszósz, sajt, füstölt sajt, márványsajt, fetasajt",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "6": {
+        "name": "Gladiátor",
+        "description": "tejföl, sajt, bacon, füstölt csülök, kukorica, füstölt sajt",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "7": {
+        "name": "Margherita",
+        "description": "paradicsomszósz, extra sajt, paradicsomkarika",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "8": {
+        "name": "Mephisto",
+        "description": "paradicsomszósz, sajt, szalámi, bacon, hagyma",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "9": {
+        "name": "Mexikói",
+        "description": "paradicsomszósz, sajt, chili, bacon, bab, mexikói zöldség",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "10": {
+        "name": "Négy évszak",
+        "description": "paradicsomszósz, sajt, sonka, szalámi, kukorica, gomba",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "11": {
+        "name": "Oh-la-la",
+        "description": "paradicsomszósz, sajt, tonhal, gomba, olíva",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "12": {
+        "name": "White moon",
+        "description": "kapros-tejszínes alap, sajt, sonka, csemegeuborka",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "13": {
+        "name": "Tomi kedvence",
+        "description": "paradicsomszósz, kínai feltét - Mi a stílus ? Koronavírus !",
+        "image": "tomikedvence.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "14": {
+        "name": "Peti kedvence",
+        "description": "paradicsomszósz, sajt, sonka, bacon, kukorica, easter egg",
+        "image": "petikedvence.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "15": {
+        "name": "Sajt bumm",
+        "description": "paradicsomszósz, sajt, füstölt sajt, márványsajt, kettő választható feltét",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "16": {
+        "name": "Peppíno",
+        "description": "lecsó, sajt, szalámi, pepperóni, bacon, hagyma, tükörtojás",
+        "image": "pizza.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    },
+    "roasts": {
+      "1": {
+        "name": "Sajtfalatka nuggets",
+        "description": "A legfrisebb dél-olasz vízibivaly tejéből készült mozzarellás sajtfalatka.",
+        "image": "nuggets-cheese.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "2": {
+        "name": "Csirke nuggets",
+        "description": "Szabadtartású csirkéink minden reggel a 2-es villamossal érkeznek hozzánk a Hattyasról.",
+        "image": "nuggets-chicken.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "3": {
+        "name": "Liba nuggets",
+        "description": "Ketreces libáink a csirkéinkkel ellentétben az 1-es villamossal érkeznek.",
+        "image": "nuggets-goose.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "4": {
+        "name": "Hagyma nuggets",
+        "description": "Mindig megsiratjuk amikor ezt a finomságot oda kell adnunk megrendelőinknek.",
+        "image": "nuggets-onion.png",
+        "foodSizes": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      "5": {
+        "name": "Űrlény nuggets",
+        "description": "Szíriuszi fennsíkok kiemelkedő terméke!",
+        "image": "nuggets-alien.png",
+        "foodSizes": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "6": {
+        "name": "Ínyenc rakott csirkemell",
+        "description": "csirkemell, csirkemájjal, baconnal, cheddar sajttal grillezve",
+        "image": "szarnyas.png",
+        "foodSizes": [
+          "11",
+          "12"
+        ]
+      },
+      "7": {
+        "name": "Párizsi borda",
+        "description": "Omlette du fromagge",
+        "image": "nemszarnyas.png",
+        "foodSizes": [
+          "9",
+          "10"
+        ]
+      },
+      "8": {
+        "name": "Cigánypecsenye",
+        "description": "A ház specialitása",
+        "image": "nemszarnyas.png",
+        "foodSizes": [
+          "9",
+          "10"
+        ]
+      },
+      "9": {
+        "name": "Favágó szelet",
+        "description": "rántott sertésborda gombával, sonkával, sajttal grillezve",
+        "image": "nemszarnyas.png",
+        "foodSizes": [
+          "9",
+          "10"
+        ]
+      },
+      "10": {
+        "name": "Vértesi tarja csíkok",
+        "description": "sertés tarja, zöldséges csípős raguban",
+        "image": "nemszarnyas.png",
+        "foodSizes": [
+          "9",
+          "10"
+        ]
+      },
+      "11": {
+        "name": "Milánói sertésborda",
+        "description": "milánói spagetti, rántott sertés bordával",
+        "image": "nemszarnyas.png",
+        "foodSizes": [
+          "13",
+          "14"
+        ]
+      },
+      "12": {
+        "name": "Budapest borda",
+        "description": "csirkemájjal töltött sertésborda",
+        "image": "nemszarnyas.png",
+        "foodSizes": [
+          "11",
+          "12"
+        ]
+      },
+      "13": {
+        "name": "Csípős tekercs",
+        "description": "rántott sertésborda, csípős raguval töltve",
+        "image": "nemszarnyas.png",
+        "foodSizes": [
+          "11",
+          "12"
+        ]
+      },
+      "14": {
+        "name": "Itatós tekercs",
+        "description": "rántott sertésborda, füstölt sajttal, baconnal töltve",
+        "image": "nemszarnyas.png",
+        "foodSizes": [
+          "11",
+          "12"
+        ]
+      },
+      "15": {
+        "name": "Bársonyos csirkemell",
+        "description": "csirkemell csíkok gombás, tejszínes raguban",
+        "image": "szarnyas.png",
+        "foodSizes": [
+          "11",
+          "12"
+        ]
+      },
+      "16": {
+        "name": "Bakonyi csirkemell",
+        "description": "csirkemell lecsós gombamártásban",
+        "image": "szarnyas.png",
+        "foodSizes": [
+          "11",
+          "12"
+        ]
+      }
+    }
+  }
+}

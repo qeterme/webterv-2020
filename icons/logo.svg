@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100mm" height="100mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10000 10000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#00A0E3;stroke-width:200}
+    .fil0 {fill:none}
+    .fil3 {fill:#FF8E96}
+    .fil2 {fill:url(#id1)}
+    .fil1 {fill:url(#id2)}
+    .fil8 {fill:url(#id3)}
+    .fil7 {fill:url(#id4)}
+    .fil6 {fill:url(#id5)}
+    .fil5 {fill:url(#id6)}
+    .fil4 {fill:url(#id7)}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M1695 7278c0,0 0,0 0,0 40,149 195,238 344,198l6024 -1614c325,-187 264,-1126 -255,-2026 -520,-900 -1302,-1422 -1627,-1234l-4410 4410c-109,109 -109,288 0,397 0,0 0,0 0,0l-75 -130z"/>
+    </clipPath>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="2280.89" y1="3989.2" x2="5715.05" y2="8081.86">
+   <stop offset="0" style="stop-color:#FFF734"/>
+   <stop offset="1" style="stop-color:#FAB600"/>
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="5800.85" y1="5073.5" x2="7179.41" y2="4277.6">
+   <stop offset="0" style="stop-color:#FF1814"/>
+   <stop offset="1" style="stop-color:#E31E24"/>
+  </linearGradient>
+  <radialGradient id="id3" gradientUnits="userSpaceOnUse" cx="6416.38" cy="4629.4" r="1771.62" fx="6416.38" fy="4629.4">
+   <stop offset="0" style="stop-color:#FFCB49"/>
+   <stop offset="1" style="stop-color:#F17E00"/>
+  </radialGradient>
+  <radialGradient id="id4" gradientUnits="userSpaceOnUse" cx="2124.82" cy="7721.8" r="689.46" fx="2124.82" fy="7721.8">
+   <stop offset="0" style="stop-color:#FF616C"/>
+   <stop offset="0.870588" style="stop-color:#FF828B"/>
+   <stop offset="1" style="stop-color:#FF8E96"/>
+  </radialGradient>
+  <radialGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id4" cx="3323.94" cy="5628.57" r="689.46" fx="3323.94" fy="5628.57">
+  </radialGradient>
+  <radialGradient id="id6" gradientUnits="userSpaceOnUse" xlink:href="#id4" cx="5371.12" cy="6309.48" r="689.46" fx="5371.12" fy="6309.48">
+  </radialGradient>
+  <radialGradient id="id7" gradientUnits="userSpaceOnUse" xlink:href="#id4" cx="5740.04" cy="4233.63" r="689.45" fx="5740.04" fy="4233.63">
+  </radialGradient>
+ </defs>
+ <g id="Réteg_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1074381968">
+   <ellipse class="fil0 str0" cx="5000" cy="5000" rx="2000" ry="4500"/>
+   <ellipse class="fil0 str0" transform="matrix(2.83808E-014 1.0716 -0.961269 2.54588E-014 5000 5000)" rx="1866" ry="4681"/>
+   <ellipse class="fil0 str0" transform="matrix(-0.757735 0.757735 -0.67972 -0.67972 5000 5000)" rx="1866" ry="4681"/>
+   <ellipse class="fil0 str0" transform="matrix(0.757735 0.757735 -0.67972 0.67972 5000 5000)" rx="1866" ry="4681"/>
+  </g>
+  <g id="_1072378048">
+   <path class="fil0" d="M7242 6082c154,-104 316,-212 269,-588 -46,-361 -189,-802 -438,-1233 -249,-432 -559,-776 -849,-996 -302,-229 -477,-143 -644,-62"/>
+   <line class="fil0" x1="8500" y1="5238" x2="8500" y2= "5238" />
+   <line class="fil0" x1="6816" y1="2322" x2="6816" y2= "2322" />
+   <g style="clip-path:url(#id0)">
+    <g>
+     <path class="fil1" d="M6093 2467l2111 3656c49,84 20,193 -65,242l-1010 583c-84,49 -193,20 -242,-65l-2111 -3656c-49,-84 -20,-193 65,-242l1010 -583c84,-49 193,-20 242,65z"/>
+     <path class="fil2" d="M6984 6718l-4559 2632c-64,37 -147,15 -184,-49l-1950 -3377c-37,-64 -15,-147 49,-184l4253 -2455c13,2 594,-135 843,230 533,780 615,736 836,603 480,-290 320,783 516,921 787,453 -269,1179 281,1248 142,18 -92,268 -85,432z"/>
+     <path class="fil3" d="M2722 7377c190,330 77,751 -252,942 -330,190 -751,77 -942,-252 -190,-330 -77,-751 252,-942 330,-190 751,-77 942,252z"/>
+     <path class="fil3" d="M3921 5284c190,330 77,751 -252,942 -330,190 -751,77 -942,-252 -190,-330 -77,-751 252,-942 330,-190 751,-77 942,252z"/>
+     <path class="fil3" d="M5968 5965c190,330 77,751 -252,942 -330,190 -751,77 -942,-252 -190,-330 -77,-751 252,-942 330,-190 751,-77 942,252z"/>
+     <path class="fil4" d="M6337 3889c190,330 77,751 -252,942 -330,190 -751,77 -942,-252 -190,-330 -77,-751 252,-942 330,-190 751,-77 942,252z"/>
+     <path class="fil5" d="M5968 5965c190,330 77,751 -252,942 -330,190 -751,77 -942,-252 -190,-330 -77,-751 252,-942 330,-190 751,-77 942,252z"/>
+     <path class="fil6" d="M3921 5284c190,330 77,751 -252,942 -330,190 -751,77 -942,-252 -190,-330 -77,-751 252,-942 330,-190 751,-77 942,252z"/>
+     <path class="fil7" d="M2722 7377c190,330 77,751 -252,942 -330,190 -751,77 -942,-252 -190,-330 -77,-751 252,-942 330,-190 751,-77 942,252z"/>
+    </g>
+   </g>
+   <path class="fil0" d="M1695 7278c0,0 0,0 0,0 40,149 195,238 344,198l6024 -1614c325,-187 264,-1126 -255,-2026 -520,-900 -1302,-1422 -1627,-1234l-4410 4410c-109,109 -109,288 0,397 0,0 0,0 0,0"/>
+   <path class="fil8" d="M7242 6082c154,-104 316,-212 269,-588 -46,-361 -189,-802 -438,-1233 -249,-432 -559,-776 -849,-996 -151,-115 -270,-150 -372,-147 -102,3 -188,45 -271,86l600 -600c265,-265 1107,334 1627,1234 520,900 618,1929 256,2026l-820 220z"/>
+  </g>
+ </g>
+</svg>

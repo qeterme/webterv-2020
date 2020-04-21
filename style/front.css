@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Caladea|Noto+Sans|Oxanium&display=swap');
+
+:root {
+    --primary-1: #F28A2E;
+    --primary-2: #F27830;
+    --primary-3: #F27D52;
+    --secondary: #C9E2F2;
+    --tertiary: #A66D6D;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0 auto 0 auto;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.menu-button {
+    font-size: 12pt;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #da714a, #ff8658);
+    box-shadow: 5px 5px 10px #ce6a46, -5px -5px 10px #ff905e;
+}
+
+li.menu-button:hover {
+    border-radius: 10px;
+    background: var(--primary-3);
+    box-shadow: 5px 5px 10px #ce6a46, -5px -5px 10px #ff905e;
+}
+
+.menu-button-selected {
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ff8658, #da714a);
+    box-shadow: 5px 5px 10px #ce6a46, -5px -5px 10px #ff905e;
+}
+
+.menu-button-action {
+    font-size: 12pt;
+    text-transform: uppercase;
+    float: right;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #b5cbda, #d7f2ff);
+    box-shadow: 5px 5px 10px #abc0ce, -5px -5px 10px #e7ffff;
+    color: black;
+}
+
+li.menu-button-action:hover {
+    border-radius: 10px;
+    background: var(--secondary);
+    box-shadow: 5px 5px 10px #abc0ce, -5px -5px 10px #e7ffff;
+}
+
+.menu-button-action-selected {
+    border-radius: 10px;
+    background: linear-gradient(145deg, #d7f2ff, #b5cbda);
+    box-shadow: 5px 5px 10px #abc0ce, -5px -5px 10px #e7ffff;
+}
+
+.action {
+    color: black;
+}
+
+.brand {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28pt;
+    width: auto;
+    height: 100%;
+    float: left;
+    margin: 0 0 0 5%;
+}
+
+.brand img {
+    height: 28pt;
+    vertical-align: middle;
+}
+
+#cart-noti {
+    height: 1em;
+}
+
+ul {
+    list-style-type: none;
+    margin: auto 0 auto 0;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+
+.menu {
+    margin: 0;
+    background: var(--primary-1);
+}
+
+.food {
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #E5E5E5;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.food p {
+    height: 5em;
+}
+
+.food img, .cart-item img {
+    border-radius: 50%;
+    height: 175px;
+    width: 175px;
+    margin-bottom: 1em;
+}
+
+.cart-item #delete {
+    height: 1em;
+    width: 1em;
+    border: none;
+    float: right;
+    margin-right: -.25em;
+}
+
+.food select {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    background-color: var(--primary-3);
+    background-image: -webkit-linear-gradient(top, var(--primary-1), var(--primary-2));
+    background-image: -moz-linear-gradient(top, var(--primary-1), var(--primary-2));
+    background-image: -ms-linear-gradient(top, var(--primary-1), var(--primary-2));
+    background-image: -o-linear-gradient(top, var(--primary-1), var(--primary-2));
+    background-image: linear-gradient(to bottom, var(--primary-1), var(--primary-2));
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 2px solid #E5E5E5;
+    border-radius: 5px;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: .25em;
+}
+
+input[type="button"], input[type="submit"] {
+    background-color: var(--secondary);
+    padding: .5em;
+    border: 2px solid #E5E5E5;
+    border-radius: 10px;
+    color: #222222;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    text-transform: uppercase;
+    display: block;
+    font-size: 20px;
+    margin: .5em auto;
+}
+
+input[type="number"], input[type="text"], input[type="tel"], input[type="email"], input[type="password"] {
+    background-color: var(--secondary);
+    padding: .5em;
+    border: 2px solid #E5E5E5;
+    border-radius: 7px;
+    color: #222222;
+    display: block;
+    margin: .5em;
+}
+
+.slide {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50%;
+    z-index: -1;
+}
+
+.slide img {
+    position: absolute;
+    animation: slide 20s infinite;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+    25% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+}
+
+.slide img:nth-child(4) {
+    animation-delay: 0s;
+}
+
+.slide img:nth-child(3) {
+    animation-delay: 5s;
+}
+
+.slide img:nth-child(2) {
+    animation-delay: 10s;
+}
+
+.slide img:nth-child(1) {
+    animation-delay: 15s;
+}
+
+main {
+    text-align: justify;
+    color: #000000;
+    flex: 1;
+    width: 70%;
+    margin: 1rem auto;
+}
+
+#foodies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#order-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+}
+
+.cart-item, #cart-empty, #added-to-cart {
+    padding: 1em;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 2px solid #E5E5E5;
+    background: #f5f5f5;
+    text-align: left;
+}
+
+#added-to-cart {
+    z-index: 5;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(186, 186, 186, 1);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(186, 186, 186, 1);
+    box-shadow: 0px 5px 15px 0px rgba(186, 186, 186, 1);
+}
+
+.cart-item img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-right: 1em;
+}
+
+.cart-item h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.cart-item p {
+    margin: 0;
+}
+
+.cart-item input {
+    width: 3em;
+}
+
+.cart-item .price {
+    margin-top: 1em;
+    display: inline-block;
+}
+
+#cart h3 {
+    float: right;
+}
+
+main a {
+    color: #535353;
+}
+
+main table {
+    width: 100%;
+    border: 1px solid #E5E5E5;
+}
+
+main table caption {
+    padding-bottom: 1em;
+}
+
+fieldset {
+    margin-bottom: 1rem;
+    padding: 1em;
+    border-radius: 5px;
+    border: 2px solid #E5E5E5;
+    background: #f5f5f5;
+}
+
+fieldset legend {
+    border-radius: 5px;
+    border: 2px solid #E5E5E5;
+    background: white;
+    padding: 5px;
+}
+
+footer {
+    background: var(--tertiary);
+    text-align: center;
+    padding: 1rem;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: var(--primary-1);
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 10;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(186, 186, 186, 1);
+    -moz-box-shadow: 0 5px 10px 0 rgba(186, 186, 186, 1);
+    box-shadow: 0 5px 10px 0 rgba(186, 186, 186, 1);
+}
+
+.menu {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+.menu ul {
+    width: 100%;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    width: 100%;
+    height: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: inline-block;
+    padding: 0;
+}
+
+.menu a {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: block;
+    color: #222;
+}
+
+.menu ul a:hover {
+    background-color: var(--primary-2);
+    color: #fff;
+}
+
+.menu ul .action:hover {
+    background-color: var(--primary-2);
+}
+
+.menu ul .action {
+    background-color: var(--secondary);
+}
+
+.menu ul .selected {
+    background-color: var(--primary-2);
+}
+
+#menuToggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    main {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 95%
+    }
+
+    #foodies {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    main {
+        width: 100%;
+    }
+
+    #foodies {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #cart, #order-details {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #added-to-cart {
+        top: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #added-to-cart {
+        left: 20%;
+        top: 25%;
+        margin: auto;
+    }
+
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu ul {
+        display: block;
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height 0.3s;
+        -moz-transition: max-height 0.3s;
+        -ms-transition: max-height 0.3s;
+        -o-transition: max-height 0.3s;
+        transition: max-height 0.3s;
+    }
+
+    .menu ul li {
+        text-align: left;
+        width: 100%;
+        height: 50px;
+        background-color: var(--primary-1);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .menu ul li a {
+        width: 100%;
+        height: 100%;
+        padding-right: 0px;
+        padding-left: 5%;
+    }
+
+    .menu-icon {
+        width: 50px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 5px;
+        line-height: 60px;
+    }
+
+    #menuToggle:checked ~ ul {
+        max-height: 350px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    #foodies {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #order-page {
+        grid-template-columns: 1fr;
+    }
+
+    #cart, #order-details {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    main {
+        width: 100%;
+    }
+
+    #foodies, #order-page {
+        grid-template-columns: 1fr;
+    }
+
+    #cart, #order-details {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    #added-to-cart {
+        left: 0;
+    }
+}
+
+.empty-cart {
+    grid-template-columns: 1fr !important;
+}

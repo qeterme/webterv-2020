@@ -1,0 +1,24 @@
+header nav.menu {
+    display: none;
+}
+
+header {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    position: unset;
+}
+
+header figure.brand {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+main {
+    width: 95%;
+}
+
+footer {
+    display: none;
+}

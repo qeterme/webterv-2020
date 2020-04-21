@@ -1,9 +1,9 @@
 <?php
-$active = "pizza";
 require "common/front/head.php";?>
 
 <body>
 <?php
+$active = "order";
 require "common/front/menu.php";  ?>
 <main>
     <!--    TARTALOM KEZDETE    -->

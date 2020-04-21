@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100mm" height="100mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10000 10000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#2B2A29;stroke-width:20}
+    .fil1 {fill:none}
+    .fil5 {fill:#63B587}
+    .fil2 {fill:#8F3B17}
+    .fil0 {fill:#FFA84F}
+    .fil3 {fill:#FFA956}
+    .fil4 {fill:#FFD183}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M9108 3640l0 0c0,355 -291,646 -646,646l-6924 0c-355,0 -646,-291 -646,-646l0 0 8215 0zm0 0c0,-649 -1839,-1174 -4108,-1174 -2269,0 -4108,526 -4108,1174l8215 0z"/>
+   </clipPath>
+ </defs>
+ <g id="Réteg_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_918255792">
+    <rect class="fil0 str0" x="694" y="2028" width="8506" height="2776" rx="215" ry="215"/>
+   </g>
+  </g>
+  <path class="fil1" d="M9108 3640l0 0c0,355 -291,646 -646,646l-6924 0c-355,0 -646,-291 -646,-646l0 0m8215 0c0,-649 -1839,-1174 -4108,-1174 -2269,0 -4108,526 -4108,1174"/>
+  <rect class="fil2" x="1208" y="4526" width="7583" height="948" rx="474" ry="474"/>
+  <rect class="fil3" x="892" y="5727" width="8215" height="1264" rx="632" ry="632"/>
+  <path class="fil4" d="M1730 4273l6541 0c70,0 126,57 126,126l0 0c3,305 -2383,-34 -4250,273 -1330,219 -2541,-67 -2544,-273l0 0c0,-70 57,-126 126,-126z"/>
+  <path class="fil5" d="M8270 5473l-6541 0c-70,0 -126,57 -126,126l0 0c-3,305 2383,-34 4250,273 1330,219 2541,-67 2544,-273l0 0c0,-70 -57,-126 -126,-126z"/>
+ </g>
+</svg>
