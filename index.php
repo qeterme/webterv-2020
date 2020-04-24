@@ -4,16 +4,22 @@ $uri_parts = explode('?', $request, 2);
 
 switch (strtolower($uri_parts[0])) {
     case '':
+    case "/eosge3" :
     case "/eosge3/" :
         require __DIR__ . "/views/index.php";
         break;
     case "/eosge3/auth" :
+    case "/eosge3/auth/" :
         require __DIR__ . "/views/auth/login.php";
         break;
     case "/eosge3/auth/register" :
         require __DIR__ . "/views/auth/register.php";
         break;
+    case "/eosge3/auth/logout" :
+        require __DIR__ . "/views/auth/logout.php";
+        break;
     case "/eosge3/dashboard" :
+    case "/eosge3/dashboard/" :
         require __DIR__ . "/views/dashboard/index.php";
         break;
     case "/eosge3/dashboard/orders" :

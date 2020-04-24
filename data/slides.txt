@@ -1,0 +1,4 @@
+a:2:{s:11:"description";s:26:"Gyors pizzák elérhetőek";s:5:"image";s:10:"slide1.png";}
+a:2:{s:11:"description";s:25:"Frissen készült pizzák";s:5:"image";s:10:"slide2.png";}
+a:2:{s:11:"description";s:26:"Rendelj most weboldalunkon";s:5:"image";s:10:"slide3.png";}
+a:2:{s:11:"description";s:26:"Nuggetsek már 450 Ft-tól";s:5:"image";s:10:"slide4.png";}

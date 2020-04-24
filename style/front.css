@@ -296,6 +296,19 @@ main table caption {
     padding-bottom: 1em;
 }
 
+.error {
+    border: 2px solid #D90037;
+    background: rgba(217, 0, 55, 0.2);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.error > b {
+    color: #8C0023;
+}
+
 fieldset {
     margin-bottom: 1rem;
     padding: 1em;

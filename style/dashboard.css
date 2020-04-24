@@ -110,6 +110,7 @@ li a:hover {
 table {
     width: 100%;
     border-collapse: collapse;
+    line-height: 2;
 }
 
 th {
@@ -153,4 +154,71 @@ h5 {
     margin-top: 10px;
     padding-left: 15px;
     font-size: 12px;
+}
+
+label, input {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+td > img {
+    border-radius: 50%;
+    height: 30px;
+    text-align: center;
+    display: block;
+    margin: 0.3em auto;
+}
+
+a > img {
+    height: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+[type=radio] + img {
+    cursor: pointer;
+}
+
+[type=radio]:checked + img {
+    outline: 3px solid var(--primary-1);
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.error {
+    border: 2px solid #D90037;
+    background: rgba(217, 0, 55, 0.2);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.error > b {
+    color: #8C0023;
+}
+
+.success {
+    border: 2px solid #45BF55;
+    background: rgba(69, 191, 85, 0.2);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.success > b {
+    color: #168039;
 }

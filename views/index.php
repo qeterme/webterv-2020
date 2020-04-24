@@ -6,7 +6,19 @@ require "common/front/head.php"; ?>
 <?php
 require "common/front/menu.php"; ?>
 <main>
-    <!--    TARTALOM KEZDETE    -->
+    <div class="slide">
+        <?php
+        $file = fopen("data/slides.txt", "r");
+        $slides = [];
+        while (($line = fgets($file)) !== false)
+            $slides[] = unserialize($line);
+        fclose($file);
+
+        foreach ($slides as $slide) {
+            echo '<img src="userfiles/slides/' . $slide["image"] . '" alt="' . $slide["description"] . '">';
+        }
+        ?>
+    </div>
 </main>
 <?php require "common/front/footer.php"; ?>
 </body>

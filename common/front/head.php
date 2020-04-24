@@ -1,7 +1,14 @@
-<?php $root = realpath($_SERVER["SERVER_NAME"]);
+<?php
+ini_set("session.use_cookies", 0);
+ini_set("session.use_only_cookies", 0);
+ini_set("session.use_trans_sid", 1);
+
+session_start();
+
+$root = realpath($_SERVER["SERVER_NAME"]);
 
 $title = "";
-switch($active) {
+switch ($active) {
     case "home":
         $title = "Promóciók";
         break;
@@ -23,6 +30,9 @@ switch($active) {
     case "contactus":
         $title = "Kapcsolat";
         break;
+    case "404":
+        $title = "404";
+        break;
 }
 ?>
 <!DOCTYPE html>
@@ -35,4 +45,4 @@ switch($active) {
     <link rel="icon" type="image/svg+xml" href="<?php echo $root; ?>/eosge3/icons/logo.svg">
     <script src="<?php echo $root; ?>/eosge3/script/script.js"></script>
 </head>
-<body>
+
